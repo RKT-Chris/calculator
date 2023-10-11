@@ -1,0 +1,65 @@
+:root{
+    --green: rgb(170, 255, 200);
+    --black: rgb(30, 30, 30);
+}
+body{
+    background-color: var(--green);
+    height: 700px;
+}
+#main{
+    width: 300px;
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2), -8px -8px 16px 0 rgba(0,0,0,0.2);
+    padding: 10px 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    height: 80%;
+    width: 400px;
+}
+#title{
+    text-decoration: underline;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 25px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+.input{
+    margin: 20px;
+}
+#div_title{
+    text-align: center;
+}
+hr{
+    border: 1px solid black;
+    width: 200px;
+}
+#div_submit{
+    display: flex;
+    justify-content: space-between;
+}
+.green{
+    background-color: var(--green);
+}
+#submit{
+    width: 30%;
+}
+#back{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+}
+#a_back{
+    width: 30%;
+}
